@@ -201,6 +201,20 @@ f( 5, 3, done );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/compose`][@stdlib/utils/compose]: function composition.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -259,6 +273,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-async-compose/main/LICENSE
 
 [function-composition]: https://en.wikipedia.org/wiki/Function_composition_%28computer_science%29
+
+<!-- <related-links> -->
+
+[@stdlib/utils/compose]: https://github.com/stdlib-js/utils-compose
+
+<!-- </related-links> -->
 
 </section>
 
