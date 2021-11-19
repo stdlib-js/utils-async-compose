@@ -20,7 +20,7 @@ limitations under the License.
 
 # composeAsync
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [Function composition][function-composition].
 
@@ -209,7 +209,7 @@ f( 5, 3, done );
 
 ## See Also
 
--   [`@stdlib/utils/compose`][@stdlib/utils/compose]: function composition.
+-   <span class="package-name">[`@stdlib/utils/compose`][@stdlib/utils/compose]</span><span class="delimiter">: </span><span class="description">function composition.</span>
 
 </section>
 
@@ -260,8 +260,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-async-compose/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-async-compose?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-async-compose.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-async-compose/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
