@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.composeAsync;
+})();
 })();
 </script>
 ```
@@ -175,6 +177,7 @@ f( 4, 6, done );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 function a( x, y, next ) {
     setTimeout( onTimeout, 0 );
@@ -209,6 +212,7 @@ function done( error, result ) {
 
 f( 5, 3, done );
 
+})();
 })();
 </script>
 </body>
@@ -314,7 +318,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/compose]: https://github.com/stdlib-js/utils-compose/tree/umd
+[@stdlib/utils/compose]: https://github.com/stdlib-js/utils-compose/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
