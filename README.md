@@ -217,7 +217,7 @@ f( 5, 3, done );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/compose`][@stdlib/utils/compose]</span><span class="delimiter">: </span><span class="description">function composition.</span>
+-   <span class="package-name">[`@stdlib/utils-compose`][@stdlib/utils/compose]</span><span class="delimiter">: </span><span class="description">function composition.</span>
 
 </section>
 
