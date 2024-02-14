@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import composeAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-async-compose/tags). For example,
+
+```javascript
 import composeAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@v0.2.0-deno/mod.js';
 ```
 
@@ -156,7 +161,7 @@ f( 4, 6, done );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import composeAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@v0.2.0-deno/mod.js';
+import composeAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@deno/mod.js';
 
 function a( x, y, next ) {
     setTimeout( onTimeout, 0 );
