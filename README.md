@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import composeAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@esm/index.mjs';
+import composeAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@v0.2.0-esm/index.mjs';
 ```
 
 #### composeAsync( ...fcn )
@@ -161,7 +161,7 @@ f( 4, 6, done );
 <body>
 <script type="module">
 
-import composeAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@esm/index.mjs';
+import composeAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@v0.2.0-esm/index.mjs';
 
 function a( x, y, next ) {
     setTimeout( onTimeout, 0 );
