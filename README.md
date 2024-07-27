@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import composeAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@deno/mod.js';
+import composeAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@v0.2.2-deno/mod.js';
 ```
 
 #### composeAsync( ...fcn )
@@ -156,7 +156,7 @@ f( 4, 6, done );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import composeAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@deno/mod.js';
+import composeAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@v0.2.2-deno/mod.js';
 
 function a( x, y, next ) {
     setTimeout( onTimeout, 0 );
