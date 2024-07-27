@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-composeAsync = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@umd/browser.js' )
+composeAsync = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@v0.2.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var composeAsync = require( 'path/to/vendor/umd/utils-async-compose/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@v0.2.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -183,7 +183,7 @@ f( 4, 6, done );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-compose@v0.2.2-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
